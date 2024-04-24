@@ -1,5 +1,5 @@
-package Lists;
-public class MyLinkedList<T> implements Lists.MyList {
+package lists;
+public class MyLinkedList<T> implements lists.MyList {
     @Override
     public void add(Object item) {
 

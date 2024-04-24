@@ -15,9 +15,21 @@ public class MyArrayList<T> extends MyList<T>{
 
     public void add(T item){
         if (size >= array.length){
+            increase size();
+            array[size++] =
+        }
+    }
+    public void add(T item, int index){
+        checkIndex(index);
+        if (size >= array.length){
+
+
 
         }
     }
+
+
+
 
 }
 
