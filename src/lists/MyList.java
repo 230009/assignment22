@@ -1,6 +1,6 @@
 //this is the interface
 package lists;
-import java.util.Iterator;
+
 public interface MyList<T> {
     void add(T item);
     void set(T item);
@@ -16,7 +16,7 @@ public interface MyList<T> {
     void remove (int index);
     void removeFirst ();
     void removeLast ();
-    void sort();
+    void sort(String bubble);
     int index0f (Object object);
     int lastIndex0f (Object object);
 

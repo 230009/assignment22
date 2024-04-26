@@ -93,7 +93,7 @@ public abstract class MyArrayList<T> implements MyList<T>{
     }
 
     @Override
-    public void sort() {
+    public void sort(String bubble) {
     }
 
     @Override
@@ -129,7 +129,7 @@ public abstract class MyArrayList<T> implements MyList<T>{
     }
 
 
-
+    public abstract boolean isEmpty();
 }
 
 

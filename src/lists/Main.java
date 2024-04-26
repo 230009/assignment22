@@ -8,6 +8,11 @@ public class Main {
         public static void main(String[] args) {
             MyArrayList myArrayList = new MyArrayList() {
                 @Override
+                public boolean isEmpty() {
+                    return false;
+                }
+
+                @Override
                 public void set(Object item) {
 
                 }
@@ -21,7 +26,6 @@ public class Main {
                     return 0;
                 }
             };
-            ArrayList arrayList = new ArrayList();
             myArrayList.add(11.5);
             myArrayList.add(10);
             myArrayList.add(9);

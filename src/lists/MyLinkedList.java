@@ -102,7 +102,7 @@ public abstract class MyLinkedList<T extends Object & Comparable<T>>implements M
         node.next = null;
         size--;
     }
-    public void sort() {
+    public void sort(String bubble) {
         boolean swapped;
         Node<T> node;
 
